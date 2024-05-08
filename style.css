@@ -1,5 +1,5 @@
 html, body{
-  margin-left: auto !important;
+  margin-left: 70px !important;
   margin-right: auto !important;
   padding-top: 10px !important;
   height: 100%;
@@ -8,9 +8,10 @@ html, body{
 }
 
 #camera, #camera--view, #camera--sensor, #camera--output{
-    height: 527px;
-    width: 943px;
-	object-fit: cover;
+    position: fixed;
+	width: 984px;
+	height: 527px;
+	object-fit: scale-down;
 }
 
 #camera--view, #camera--sensor, #camera--output{
