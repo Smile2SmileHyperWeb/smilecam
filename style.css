@@ -11,7 +11,7 @@ html, body{
     position: fixed;
 	width: 984px;
 	height: 527px;
-	object-fit: scale-down;
+	object-fit: cover;
 }
 
 #camera--view, #camera--sensor, #camera--output{
