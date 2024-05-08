@@ -1,15 +1,17 @@
 html, body{
-  margin: 0;
+  margin-left: 75px !important;
+  margin-right: auto !important;
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: #7963a5;
 }
 
 #camera, #camera--view, #camera--sensor, #camera--output{
     position: fixed;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    height: 527px;
+    width: 943px;
+	object-fit: cover;
 }
 
 #camera--view, #camera--sensor, #camera--output{
